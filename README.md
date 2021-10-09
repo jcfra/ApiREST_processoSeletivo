@@ -3,7 +3,7 @@ Consultor Data Science
 
 
 
-O objetivo aqui foi produzir uma API REST para dar resposta as  questões descritas abaixo.
+O objetivo aqui foi produzir uma API REST usando Flask para dar resposta as  questões descritas abaixo.
 
 Para isso, foi codificada uma classe que em processo atua como um listener, aguardando as solicitações de serviço que são respondidas após conexão com um database mySQL. Para um 
 smbiente de teste as informações de usuário e senha estão hardcoded no programa, o que não ocorreria em um ambiente de produção. Para cada questão foi codificada uma classe específica
@@ -11,7 +11,7 @@ smbiente de teste as informações de usuário e senha estão hardcoded no progr
 Questão 1 - Gostaria de listar os órgãos que responderam a pesquisa, passando o ano referência do diagnóstico como parâmetro.
  Eles devem ser apresentados como uma lista de objetos e conter minimante o nome do órgão e o tipo de órgão.
  
- URL usada para solicitar o serviçoem teste com o Postman: http://127.0.0.1:5000/quest1/2019
+ URL usada para solicitar o serviço em teste com o Postman: http://127.0.0.1:5000/quest1/2019
  
  Resposta obtida: (primeiras linhas)
  
