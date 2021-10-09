@@ -14,7 +14,7 @@ class Questao6(Resource):
         self.user = 'root'
 
         self.database = 'desafio_selecao'
-        self.password = 'Sapgui12$'
+        self.password = '?????????'
 
 
 
@@ -45,7 +45,7 @@ class Questao6(Resource):
         #     host='localhost',
         #     user='root',
         #     database='desafio_selecao',
-        #     password='Sapgui12$')
+        #     password='?????????')
         print(self.mydb)
 
     def alteraDados6(self):

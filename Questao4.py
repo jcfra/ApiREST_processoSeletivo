@@ -13,7 +13,7 @@ class Questao4(Resource):
         self.host = 'localhost'
         self.user = 'root'
         self.database = 'desafio_selecao'
-        self.password = 'Sapgui12$'
+        self.password = '?????????'
         self.listaDeOrgaos = list()
 
     def get(self):
@@ -33,7 +33,7 @@ class Questao4(Resource):
         #     host='localhost',
         #     user='root',
         #     database='desafio_selecao',
-        #     password='Sapgui12$')
+        #     password='?????????')
         print(self.mydb)
 
     def recuperaDados4(self):
